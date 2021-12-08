@@ -8,39 +8,64 @@ module.exports = {
         navbar: [
             // NavbarItem
             {
-                text: 'Foo',
-                link: '/foo/',
+                text: 'JS系列',
+                link: '/js/',
             },
             // NavbarGroup
-            {
-                text: 'Group',
-                children: [{
-                    text: 'Foo',
-                    link: '/js/',
-                }, '/group/bar.md'],
-            },
+            // {
+            //     text: 'Group',
+            //     children: [{
+            //         text: 'JS系列',
+            //         link: '/js/',
+            //     }, '/group/bar.md'],
+            // },
 
         ],
         sidebar: {
             '/': [
                 {
-                    text: 'Guide',
-                    children: [{
-                        text: 'Foo',
-                        link: '/js/',
-                    }, '/guide/getting-started.md'],
+                    text: '记忆仓库',
+                    children: [
+                        {
+                            text: 'JS系列',
+                            link: '/js/Polyfill/bind',
+                        },
+                        // {
+                        //     text: 'vue系列',
+                        //     link: '/js/Polyfill/bind',
+                        // },
+                    ],
                 },
             ],
             '/js/': [
                 {
-                    text: 'Guide',
-                    children: ['/guide/README.md', '/guide/getting-started.md'],
-                },
-            ],
-            '/reference/': [
-                {
-                    text: 'Reference',
-                    children: ['/reference/cli.md', '/reference/config.md'],
+                    text: 'JS系列',
+                    children: [{
+                        text: 'JS手写实现',
+                        children: [{
+                            text: 'call',
+                            link: '/js/Polyfill/call',
+                        },
+                        {
+                            text: 'apply',
+                            link: '/js/Polyfill/apply',
+                        },
+                        {
+                            text: 'bind',
+                            link: '/js/Polyfill/bind',
+                        },
+                        {
+                            text: '模拟new',
+                            link: '/js/Polyfill/new',
+                        },]
+                    },
+                    {
+                        text: 'event-loop',
+                        link: '/js/event-loop',
+                    }, {
+                        text: 'PromiseA+',
+                        link: '/js/PromiseA+',
+                    }],
                 },
             ],
         },
