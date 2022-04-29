@@ -19,7 +19,6 @@ module.exports = {
             //         link: '/js/',
             //     }, '/group/bar.md'],
             // },
-
         ],
         sidebar: {
             '/': [
