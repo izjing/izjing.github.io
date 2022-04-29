@@ -75,7 +75,11 @@ module.exports = {
                 {
                     text: 'PromiseA+',
                     link: '/js/PromiseA+',
-                }
+                },
+                {
+                    text: '正则',
+                    link: '/js/RegExp',
+                },
             ],
             '/webpack/': [
                 {
