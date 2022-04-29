@@ -4,13 +4,13 @@
   "description": "个人学习记录",
   "main": "index.js",
   "scripts": {
-      "dev": "npm run docs:dev",
+    "dev": "npm run docs:dev",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.27"
+    "vuepress": "^2.0.0-beta.41"
   }
 }

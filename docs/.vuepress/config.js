@@ -1,10 +1,10 @@
+const { defaultTheme } = require('vuepress')
 module.exports = {
     lang: 'zh-CN',
     title: 'izjing的记忆仓库',
     description: '好记性不如烂笔头',
-    themeConfig: {
+    theme: defaultTheme({
         logo: 'https://avatars.githubusercontent.com/u/49363439?v=4',
-        // 顶部导航栏
         navbar: [
             // NavbarItem
             {
@@ -48,23 +48,23 @@ module.exports = {
                             text: 'call',
                             link: '/js/Polyfill/call',
                         },
-                        {
-                            text: 'apply',
-                            link: '/js/Polyfill/apply',
-                        },
-                        {
-                            text: 'bind',
-                            link: '/js/Polyfill/bind',
-                        },
-                        {
-                            text: '模拟new',
-                            link: '/js/Polyfill/new',
-                        },]
+                            {
+                                text: 'apply',
+                                link: '/js/Polyfill/apply',
+                            },
+                            {
+                                text: 'bind',
+                                link: '/js/Polyfill/bind',
+                            },
+                            {
+                                text: '模拟new',
+                                link: '/js/Polyfill/new',
+                            },]
                     },
-                    {
-                        text: 'event-loop',
-                        link: '/js/event-loop',
-                    },],
+                        {
+                            text: 'event-loop',
+                            link: '/js/event-loop',
+                        },],
                 },
                 {
                     text: 'PromiseA+',
@@ -95,5 +95,5 @@ module.exports = {
                 }
             ],
         },
-    },
+    }),
 }
