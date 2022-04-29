@@ -23,25 +23,20 @@ module.exports = {
         sidebar: {
             '/': [
                 {
-                    text: '记忆仓库',
-                    children: [
-                        {
-                            text: 'JS系列',
-                            link: '/js/Polyfill/bind',
-                        },
-                        // {
-                        //     text: 'vue系列',
-                        //     link: '/js/Polyfill/bind',
-                        // },
-                        {
-                            text: 'webpack系列',
-                            link: '/webpack/mianshiti',
-                        },
-                        {
-                            text: '微前端系列',
-                            link: '/singleSpa/',
-                        },
-                    ],
+                    text: 'JS系列',
+                    link: '/js/Polyfill/bind',
+                },
+                // {
+                //     text: 'vue系列',
+                //     link: '/js/Polyfill/bind',
+                // },
+                {
+                    text: 'webpack系列',
+                    link: '/webpack/mianshiti',
+                },
+                {
+                    text: '微前端系列',
+                    link: '/singleSpa/',
                 },
             ],
             '/js/': [
