@@ -34,6 +34,14 @@ module.exports = {
                         //     text: 'vue系列',
                         //     link: '/js/Polyfill/bind',
                         // },
+                        {
+                            text: 'webpack系列',
+                            link: '/webpack/mianshiti',
+                        },
+                        {
+                            text: '微前端系列',
+                            link: '/singleSpa/',
+                        },
                     ],
                 },
             ],
@@ -62,11 +70,31 @@ module.exports = {
                     {
                         text: 'event-loop',
                         link: '/js/event-loop',
-                    }, {
-                        text: 'PromiseA+',
-                        link: '/js/PromiseA+',
-                    }],
+                    },],
                 },
+                {
+                    text: 'PromiseA+',
+                    link: '/js/PromiseA+',
+                }
+            ],
+            '/webpack/': [
+                {
+                    text: 'webpack面试题',
+                    link: '/webpack/mianshiti',
+                },
+                {
+                    text: 'webpack原理',
+                    children: [{
+                        text: 'loader',
+                        link: '/webpack/sourceCode/loader',
+                    }]
+                }
+            ],
+            '/singleSpa/': [
+                {
+                    text: '隔离JS',
+                    link: '/singleSpa/sandbox',
+                }
             ],
         },
     },
