@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-11ed488b","path":"/js/event-loop/","title":"\u6D4F\u89C8\u5668\u4E8B\u4EF6\u5FAA\u73AF","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1638976860000,"contributors":[{"name":"izjing","email":"53531436@qq.com","commits":1}]},"filePathRelative":"js/event-loop/README.md"}');export{e as data};
