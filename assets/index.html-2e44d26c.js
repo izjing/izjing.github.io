@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a686174a","path":"/webpack/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"webpack入门教学","slug":"webpack入门教学","link":"#webpack入门教学","children":[]}],"git":{"updatedTime":1651202757000,"contributors":[{"name":"xuyapeng","email":"53531436@qq.com","commits":1}]},"filePathRelative":"webpack/README.md"}');export{e as data};
