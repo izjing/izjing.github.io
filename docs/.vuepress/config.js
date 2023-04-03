@@ -1,6 +1,6 @@
 import { defaultTheme } from '@vuepress/theme-default'
 
-module.exports = {
+export default {
     lang: 'zh-CN',
     title: 'izjing的记忆仓库',
     description: '好记性不如烂笔头',
