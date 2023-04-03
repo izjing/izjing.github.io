@@ -1,4 +1,5 @@
-const { defaultTheme } = require('vuepress')
+import { defaultTheme } from '@vuepress/theme-default'
+
 module.exports = {
     lang: 'zh-CN',
     title: 'izjing的记忆仓库',
