@@ -26,10 +26,10 @@ module.exports = {
                     text: 'JS系列',
                     link: '/js/Polyfill/bind',
                 },
-                // {
-                //     text: 'vue系列',
-                //     link: '/js/Polyfill/bind',
-                // },
+                {
+                    text: 'docker系列',
+                    link: '/docker',
+                },
                 {
                     text: 'webpack系列',
                     link: '/webpack/mianshiti',
